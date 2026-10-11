@@ -1,2 +1,6 @@
+DDL -DATA DEFINITION LANGUAGE - create table, 
+DML -DATA MANIPULATION LANGUAGE
+DCL- DATA CONTROL LANGUAGE
 data - raw, unprocessed data.
 meta data - data describing the data.
+data types - 
