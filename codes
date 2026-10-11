@@ -1,1 +1,12 @@
+ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
 
+CREATE USER amazon IDENTIFIED BY amazon;
+
+SELECT username FROM dba_users ORDER BY username;
+
+CREATE USER priya IDENTIFIED BY priya;
+CREATE USER mani IDENTIFIED BY mani;
+
+grant create session to amazon;
+
+CREATE USER salman IDENTIFIED BY salman;
