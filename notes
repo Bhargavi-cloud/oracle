@@ -1,3 +1,172 @@
+INTRODUCTION TO DBMS =====================
+
+WHAT IS DBMS?
+
+DBMS stands for Database Management System.
+
+A DBMS is software used to create, store, organize, retrieve, update, and delete data in a database.
+
+Examples:
+
+Oracle Database
+MySQL
+Microsoft SQL Server
+PostgreSQL
+MongoDB
+WHAT IS A DATABASE?
+
+A database is an organized collection of related data.
+
+Example: A college database contains:
+
+Student details
+Teacher details
+Attendance records
+Examination marks
+Fee details
+WHAT IS DATA?
+
+Data refers to raw facts and figures that can be processed to obtain meaningful information.
+
+Example: 85, 92, 78
+
+WHAT IS INFORMATION?
+
+Information is data that has been processed and organized into a meaningful form.
+
+Example: The highest mark among 85, 92, and 78 is 92.
+
+NEED FOR DBMS
+
+A DBMS is needed for the following reasons:
+
+Data storage: Stores large amounts of data.
+Data retrieval: Helps users find data quickly.
+Data security: Prevents unauthorized access.
+Data sharing: Allows multiple authorized users to access data.
+Data integrity: Helps maintain accurate and valid data.
+Backup and recovery: Helps restore data after failures.
+Reduced redundancy: Helps avoid unnecessary duplication of data.
+Data consistency: Helps keep data consistent across the database.
+
+ADVANTAGES OF DBMS
+Reduces data duplication.
+Improves data security.
+Makes data retrieval easier.
+Supports data sharing.
+Maintains data integrity.
+Provides backup and recovery facilities.
+Helps manage large amounts of data efficiently.
+
+DISADVANTAGES OF DBMS
+Installation and maintenance can be expensive.
+Requires trained personnel.
+
+TYPES OF DBMS
+
+There are four traditional types of DBMS:
+
+A. Hierarchical DBMS Data is organized in a tree-like structure with parent-child relationships.
+
+B. Network DBMS Data is organized using links that allow records to have multiple relationships.
+
+C. Relational DBMS (RDBMS) Data is stored in tables consisting of rows and columns.
+
+Examples: Oracle Database, MySQL, PostgreSQL.
+
+D. NoSQL DBMS Supports data models such as documents, key-value pairs, and graphs.
+
+Examples: MongoDB, Apache Cassandra.
+
+Important: Every RDBMS is a DBMS, but not every DBMS is an RDBMS.
+
+COMPONENTS OF A DBMS
+Hardware: Physical devices used to run the database.
+Software: DBMS programs and related applications.
+Data: Information stored in the database.
+Procedures: Rules and instructions for using the database.
+Database access language: A language such as SQL used to interact with the database.
+Users: People who access or manage the database.
+
+EXAMPLE OF A DATABASE TABLE
+
+STUDENT TABLE
+
+Student_ID | Name | Age | Marks
+
+101 | Ravi | 20 | 85 102 | Priya | 21 | 92 103 | Arun | 19 | 78
+
+In a relational database:
+
+A row represents a record.
+A column represents an attribute.
+A table stores related data.
+
+DBMS - LESSON 2 FILE SYSTEM VS DBMS ===================
+
+FILE SYSTEM
+
+A file system stores data in separate files on a computer. (excel or text file)
+
+DBMS
+
+DBMS (Database Management System) is software used to store, manage, and retrieve data from a database.
+
+DIFFERENCES
+
+File System:
+
+Data stored in separate files.
+Data duplication may be high.
+Security and sharing can be difficult.
+Searching data may take more effort.
+Backup and recovery need separate procedures.
+
+DBMS:
+
+Data managed in a database.
+Helps reduce data duplication.
+Provides access control.
+Supports easy data retrieval using SQL.
+Provides backup and recovery features.
+EXAMPLES
+
+File System: Text files, CSV files. DBMS: Oracle Database, MySQL, PostgreSQL.
+
+CONCLUSION
+
+A file system stores data in files, whereas a DBMS provides organized and controlled management of data.
+
+DBMS - LESSON 3 TYPES OF DBMS =============
+
+There are four traditional types of DBMS.
+
+HIERARCHICAL DBMS
+Organizes data in a tree structure.
+Uses parent-child relationships.
+Example: IBM IMS.
+
+NETWORK DBMS
+Organizes data using links.
+A record can have multiple parent records.
+Example: IDMS.
+
+RELATIONAL DBMS (RDBMS)
+Stores data in tables with rows and columns.
+Uses SQL to manage data.
+Examples: Oracle Database, MySQL.
+
+NOSQL DBMS
+Supports flexible data models such as documents and key-value pairs.
+Useful for various large-scale applications.
+Examples: MongoDB, Cassandra.
+
+CONCLUSION: DBMS types organize and manage data in different ways.
+
+DBMS - LESSON 4 KEYS IN DBMS =============
+
+
+
 DDL -DATA DEFINITION LANGUAGE - create table, 
 DML -DATA MANIPULATION LANGUAGE
 DCL- DATA CONTROL LANGUAGE
